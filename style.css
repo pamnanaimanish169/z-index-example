@@ -1,0 +1,81 @@
+.container {
+    position: relative;
+}
+
+.box-1 {
+    display: block;
+    border: solid blue 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.box-2 {
+    display: block;
+    border: solid black 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+}
+
+.box-3 {
+    display: block;
+    border: solid black 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: white;
+}
+
+.box-4 {
+    display: block;
+    border: solid black 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: white;
+}
+
+.box-5 {
+    display: block;
+    border: solid black 4px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: white;
+}
+
+/* Hover Effect */
+.box-1:hover {
+    z-index: 1;
+    background-color: thistle;
+}
+
+.box-2:hover {
+    z-index: 1;
+    background-color: thistle;
+}
+
+.box-3:hover {
+    z-index: 1;
+    background-color: thistle;
+}
+
+.box-4:hover {
+    z-index: 1;
+    background-color: thistle;
+}
+
+.box-5:hover {
+    z-index: 1;
+    background-color: thistle;
+}
